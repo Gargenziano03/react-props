@@ -1,8 +1,8 @@
-export const posts = [
+export default [
     {
         id: 1,
-        title: "Titolo del Post",
-        image: 'https://placehold.co/600x400',
+        title: "Italia",
+        image: '/image/italia.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["html", "css"],
@@ -10,8 +10,8 @@ export const posts = [
     },
     {
         id: 2,
-        title: "Titolo del Post",
-        image: 'https://placehold.co/600x400',
+        title: "Francia",
+        image: '/image/franzia.jpf',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["js", "css"],
@@ -19,8 +19,8 @@ export const posts = [
     },
     {
         id: 3,
-        title: "Titolo del Post",
-        image: 'https://placehold.co/600x400',
+        title: "Inghilterra",
+        image: '/image/inghilterra.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["js", "php"],
@@ -28,8 +28,8 @@ export const posts = [
     },
     {
         id: 4,
-        title: "Titolo del Post",
-        image: 'https://placehold.co/600x400',
+        title: "New York",
+        image: '/image/new-york.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["html"],

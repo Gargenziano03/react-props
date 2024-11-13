@@ -8,9 +8,47 @@ body {
     background-color: rgba(245, 245, 245, 0.764);
 }
 
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
 header {
     background-color: lightgray;
     padding: 1rem;
     display: flex;
     justify-content: center;
+}
+
+main {
+    min-height: calc(100vh - 64px);
+}
+
+.post_card {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+
+    & img {
+        width: 200px;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    .details {
+        p {
+            padding: 1rem;
+        }
+
+        span {
+            padding: 1rem;
+        }
+    }
+
 }
