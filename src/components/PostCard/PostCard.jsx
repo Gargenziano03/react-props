@@ -1,11 +1,11 @@
-export default function PostCard(props) {
+export default function PostCard({ data }) {
     return (
         <div className="post_card">
-            <h2>{props.title}</h2>
-            <img src={props.image} alt="" />
+            <h2>{data.title}</h2>
+            <img src={data.image} alt="" />
             <div className="details">
-                <p>{props.content}</p>
-                <span>{props.tags}</span>
+                <p>{data.content}</p>
+                <span>{data.tags}</span>
             </div>
         </div>
     )
