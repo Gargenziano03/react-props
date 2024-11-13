@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "Italia",
-        image: '/image/italia.jpg',
+        image: '/images/italia.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["html", "css"],
@@ -11,7 +11,7 @@ export default [
     {
         id: 2,
         title: "Francia",
-        image: '/image/franzia.jpf',
+        image: '/images/francia.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["js", "css"],
@@ -20,7 +20,7 @@ export default [
     {
         id: 3,
         title: "Inghilterra",
-        image: '/image/inghilterra.jpg',
+        image: '/images/inghilterra.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["js", "php"],
@@ -29,7 +29,7 @@ export default [
     {
         id: 4,
         title: "New York",
-        image: '/image/new-york.jpg',
+        image: '/images/new-york.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["html"],
